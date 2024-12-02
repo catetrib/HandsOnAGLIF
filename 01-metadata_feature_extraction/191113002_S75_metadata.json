@@ -1,0 +1,36 @@
+{
+    "animal_id": "unknown",
+    "animal_species": "mouse",
+    "brain_structure": "hippocampus",
+    "cell_id": "19d03000_rita",
+    "cell_soma_location": "CA1",
+    "cell_type": "pyramidal",
+    "contributors_affiliations": "IBF-CNR",
+    "contributors_first_name": "",
+    "contributors_last_name": "",
+    "filename": "191113002_S75_metadata.json",
+    "liquid_junction_potential": [
+        15
+    ],
+    "liquid_junction_potential_unit": "mV",
+    "note": "9-10m control",
+    "sampling_rate": [
+        10000
+    ],
+    "sampling_rate_unit": "Hz",
+    "stimulus_end": [
+        488
+    ],
+    "stimulus_first_amplitude": [
+        -0.2
+    ],
+    "stimulus_increment": [
+        0.05
+    ],
+    "stimulus_start": [
+        88.0
+    ],
+    "stimulus_time_unit": "ms",
+    "stimulus_type": "step",
+    "stimulus_unit": "nA"
+}
