@@ -183,3 +183,18 @@ if wantToPlot:
         plt.ylabel('Current (pA)')
         plt.xlabel('time (ms)')
     plt.savefig(neuronName+'_spike_times.png')
+    
+
+
+
+'''    
+# synaptic
+'''
+# from AGLIF_040 import AGLIFsynaptic
+#
+# currentFileName = 'trace_l23-06-13.res.6-tt6clu6_0.65+1_prova20122022.txt'
+# corr_list = np.loadtxt(currentFileName, usecols=(1),dtype=np.float64, unpack=True)
+# # output filenames
+# tSpikeOutputFileName = outputFilePath+'\\'+neuronName+'_t_spk_'+str(Istim)+'pA.txt'
+# voltageOutputFileName = outputFilePath+'\\'+neuronName+'_voltage_'+str(Istim)+'.txt'
+# AGLIFsynaptic(neuronParameters,equilibriumParameters,corr_list,tSpikeOutputFileName,voltageOutputFileName)
