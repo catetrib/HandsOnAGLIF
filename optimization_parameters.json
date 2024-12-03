@@ -1,0 +1,61 @@
+{
+	"genetic_optimization_parameters": {
+		"n_iter":10, 
+		"pop_size": 10, 
+		"mutation_probability": 0.3, 
+		"elit_ratio":0.02, 
+		"crossover_probability":0.3,
+		"parents_portion":0.2
+		},
+	
+	
+	"genetic_optimization_bounds":{
+		"sc":{
+			"min":0,
+			"max":100001
+			},
+		"tao_m":{
+			"min":10,
+			"max":100
+			},
+		"Idep_ini_vr":{
+			"min":0,
+			"max":100
+			},
+		"cm":{
+			"min":0,
+			"max":100000
+			}
+	},
+	
+	
+	"Idep0_search_parameters":{
+		"Idep0_ini":3,
+		"Idep0_ini_range":3,
+		"n_iter":201
+		
+	},
+	
+	"n_test_monod": 100,
+	
+	"monod_parameters_bounds":{
+		"a":{
+			"min":0,
+			"max":20000
+			},
+		"b":{
+			"min":-200,
+			"max":200
+			},
+		"c":{
+			"min":-200,
+			"max":200
+			},
+		"alpha":{
+			"min":0,
+			"max":100000
+			}
+	}
+	
+	
+}
