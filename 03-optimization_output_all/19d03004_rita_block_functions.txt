@@ -1,0 +1,4 @@
+I_monod_sup = 275.0
+I_monod_inf = 75.0
+t_val_max   = 629.15 - 1.036*I
+t_val_min   = 259.300000000000

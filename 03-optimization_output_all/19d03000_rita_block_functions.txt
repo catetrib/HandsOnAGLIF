@@ -1,0 +1,4 @@
+I_monod_sup = inf
+I_monod_inf = -inf
+t_val_max   = I + oo
+t_val_min   = I + oo
